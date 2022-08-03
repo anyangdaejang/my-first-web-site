@@ -5,16 +5,59 @@
     <title>WEB1 - html</title>
     <meta charset="UTF-8">
     <meta name="keywords" content="HTML, CSS, JavaScript">
+    <!-- a tag 가 제일 약함 id > class > tag-->
+    <style>
+        body{
+            margin: 0px;
+        }
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        th {
+            color: blue;
+        }
+
+        #active {
+            color: red;
+        }
+
+        .aws {
+            color: gray;
+        }
+
+        h1 {
+            font-family: Cursive;
+            font-size: 45px;
+            text-align: center;
+            
+            border-bottom: 1px solid gray;
+            margin: 0px;
+        }
+        ol{
+            border-right: 1px solid gray;
+            width: 100px;
+            margin: 0px;
+            padding: 20px;
+        }
+    </style>
 </head>
 
 <body>
-    <h1><a href="index.html" target="_blank">WEB</a></h1>
+    <h1><a href="index.html" >WEB</a></h1>
     <ol>
-        <li><a href="1.html" target="_blank">HTML</a></li>
-        <li><a href="2.html" target="_blank">CSS</a></li>
-        <li><a href="3.html" target="_blank">JavaScrip</a></li>
+        <li><a href="1.html" class="aws">HTML</a></li>
+        <li><a href="2.html" class="aws" id="active">CSS</a></li>
+        <li><a href="3.html">JavaScript</a></li>
     </ol>
-    <h2>HTML</h2>
+    <!--<h1><a href="index.html" style="color:blue">WEB</a></h1>
+    <ol>
+        <li><a href="1.html" style="color:red">HTML</a></li>
+        <li><a href="2.html" style="color:gray">CSS</a></li>
+        <li><a href="3.html" style="color:aqua">JavaScript</a></li>
+    </ol>
+-->
     <a href="https://www.w3schools.com/" target="_blank" title="HTML5">Hypertext Markup Language(HTML)</a>
     <p>
         <img alt="coding image" width="80%" height="100%" src="web1.avif">
